@@ -2,9 +2,12 @@
 
 body{
     background: linear-gradient(blue, #ff0000);
+    font-family: Honk;
 }
 
 h1{
     color: #7600ad;
 }
-h2
+h2{
+    color: #cf9f00;
+}
