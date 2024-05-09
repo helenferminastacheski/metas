@@ -19,6 +19,7 @@ const tempoObjetivo1 = new Date("2024-02-02T00:00:00");
 const tempoObjetivo2 = new Date("2024-12-15T00:00:00");
 const tempoObjetivo3 = new Date("2024-11-30T00:00:00");
 const tempoObjetivo4 = new Date("2024-06-30T00:00:00");
+
 //constante da lista dos tempos de objetivo
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
