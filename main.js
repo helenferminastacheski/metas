@@ -22,6 +22,15 @@ const tempoObjetivo4 = new Date("2024-06-30T00:00:00");
 //constante da lista dos tempos de objetivo
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
+contadores[0].textContent = calculaTempo(tempoObjetivo1); //Antes
+
+contadores[0].textContent = calculaTempo(tempos[0]); // Depois
+
+// Para cada objetivo na lista de contadores
+for (let i=0; i<contadores.length;i++){
+    //Calcular o tempo usando a função e associá-lo ao objetivo
+            contadores[i].textContent = calculaTempo(tempos[i]);   
+
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date(); //obtem a data atual
     let tempoFinal = tempoObjetivo - tempoAtual; //calcula o tempo final restante
